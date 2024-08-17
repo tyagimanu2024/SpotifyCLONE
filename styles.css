@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap");
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ul {
+  display: flex;
+  list-style: none;
+  height: 60px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  padding: 5px 0px;
+}
+nav ul li {
+  margin: 40px;
+}
+.brand img {
+  width: 218px;
+}
+.bottom {
+ color: white;
+  position: relative;
+  height:fit-content;
+  background-color: black;
+  bottom: 10px;
+  width: 100%;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.container {
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  /* border: 2px solid blue; */
+  display: flex;
+  width: 80%;
+  margin: 25px auto;
+  border-radius: 15px;
+  padding: 35px;
+  background-image: url("background\ image.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.icons i {
+  margin: 20px;
+  cursor: pointer;
+}
+.songItem {
+  /* border: 2px solid blue; */
+  display: flex;
+  height: 70px;
+  width:500px;
+  color: black;
+  background-color: white;
+ margin: 12px 0;
+ justify-content: space-between;
+ align-items: center;
+ border-radius: 20px;
+}
+.songItem img {
+    width: 20%;
+    height: 70%;
+    margin: auto 20px;
+    border-radius:20px;
+}
+.songlistplay{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.timestamp{
+    margin: 0 23px;
+    cursor:pointer;
+}
+.songItemConatiner{
+margin-top: 74px;
+
+
+}
+.songInfo{
+    position: absolute;
+    left:10vw;
+}
